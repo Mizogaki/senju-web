@@ -1,0 +1,13 @@
+.icon{
+  &--addnote{
+  }
+}
+
+[class^="icon--"],
+[class*=" icon--"]{
+    @include font-size(1.6);
+    position: relative;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

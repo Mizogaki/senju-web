@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="Description" content="ソフトウェアの品質保証テストを効率化するツールです。現在開発中、2018年春公開予定。">
+    <meta name="Keywords" content="QAテスト,ソフトウェアテスト,SENJU">
+    <title>ソフトウェアテスト自動化ツール『SENJYU』</title>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="ソフトウェアの品質保証テストを効率化するツールです。現在開発中、2018年春公開予定。">
+    <meta name="twitter:title" content="ソフトウェアテスト自動化ツール『SENJYU』">
+    <meta property="og:title" content="ソフトウェアテスト自動化ツール『SENJYU』">
+    <meta property="og:url" content="assets/img/common/ogp.png">
+    <meta name="twitter:image" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="ソフトウェアテスト自動化ツール『SENJYU』">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/common/favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <link rel="apple-touch-icon" href="assets/img/common/app.png">
+    <link rel="stylesheet" media="all" href="assets/css/application.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="canonical" href="">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script>
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="header">
+      <p class="imgPatent"><img src="assets/img/top/img_main_patent.png" alt="特許出願中"></p>
+      <div class="header__inner">
+        <ul class="sns-wrap">
+          <li class="twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+          <li class="gplus">
+            <div class="g-plusone" data-annotation="none"></div>
+          </li>
+          <li class="fb">
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+          </li>
+        </ul>
+        <div class="contentArea">
+          <p class="textMainPc"><img src="assets/img/top/img_main_text.png" alt="ソフトウェアの品質保証テストを効率化する"></p>
+          <p class="textMainSp"><img src="assets/img/top/img_main_text_sp.png" alt="ソフトウェアの品質保証テストを効率化する"></p>
+          <h1 class="logoMain"><img src="assets/img/top/img_main_logo.png" alt="SENJU"></h1>
+          <p class="text">α版リリースのお知らせ等をお送りいたします。<br><span>*α版は無料でご利用いただけます。</span>
+          </p>
+          <p class="btn"><a href="#form">メールアドレス登録</a></p>
+          <p class="subText">サービスについてのお問い合わせはこちら</p>
+        </div>
+        <div class="chara">
+            <div class="chara__cat">
+                <img src="assets/img/top/fig_cat.png" alt="">
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm01.png" alt=""></div>
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm02.png" alt=""></div>
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm03.png" alt=""></div>
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm04.png" alt=""></div>
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm05.png" alt=""></div>
+                <div class="chara__cat_arm"><img src="assets/img/top/fig_cat_arm06.png" alt=""></div>
+            </div>
+          <div class="chara__goko">
+            <img src="assets/img/top/fig_goko.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="news">
+        <ul class="newsWrap">
+          <li class="day">2017<span>/</span>07<span>/</span>07</li>
+          <li class="text">SENJUサービスサイトを公開しました。現在開発中です。</li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <hr>
+        <section class="contents01">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2 class="title">ソフトウェアの品質保証テストとは?</h2>
+                <p class="text">ソフトウェアの品質保証テストは、コンピュータのプログラムから仕様にない振る舞いまたは欠陥（バグ）を見つけ出す作業のことです。</p>
+                <p class="text">エンジニアの作業時間の多くはこのテストの作業に当てられています。<br>SENJU ではこのテストを効率化し円滑なソフトウェア開発を後押しします。</p>
+            </div>
+            <div class="col-sm-5">
+                <p class="img01"><img class="img-responsive img-center" src="assets/img/top/fig_graph.png" alt=""></p>
+            </div>
+        </div>
+        <!-- /.row -->
+        </section>
+      </div>
+
+        <hr>
+
+      <section class="contents02">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+          <h2 class="title">SENJUはバージョンごとの差分を素早く抽出し、<br>QAテストの工数を削減します。</h2>
+            <div class="col-sm-4">
+              <div class="moveicon moveicon--setting">
+                  <div class="moveicon__base">
+                      <img src="assets/img/top/icon_setting_base.svg" alt="">
+                  </div>
+                  <div class="moveicon__point">
+                      <img src="assets/img/top/icon_setting_point.svg" alt="">
+                  </div>
+              </div>
+                <h3 class="subTitle">自動でテスト</h3>
+                <p class="text"><span>面倒なテストをSENJUが自動化することで作業を効率化できます。</span></p>
+            </div>
+            <div class="col-sm-4">
+              <div class="moveicon moveicon--search">
+                  <div class="moveicon__base">
+                      <img src="assets/img/top/icon_search_base.svg" alt="">
+                  </div>
+                  <div class="moveicon__point">
+                      <img src="assets/img/top/icon_search_point.svg" alt="">
+                  </div>
+              </div>
+                <h3 class="subTitle">簡単に変化を確認</h3>
+                <p class="text"><span>変化が一目で分かるのでタスク量や時間の管理が安易になります。</span></p>
+            </div>
+            <div class="col-sm-4">
+              <div class="moveicon moveicon--push">
+                  <div class="moveicon__base">
+                      <img src="assets/img/top/icon_push_base.svg" alt="">
+                  </div>
+                  <div class="moveicon__point">
+                      <img src="assets/img/top/icon_push_point.svg" alt="">
+                  </div>
+              </div>
+                <h3 class="subTitle">Github連携</h3>
+                <p class="text"><span>IssueをSENJUからGithubへ追加でき便利です。</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+      </div>
+      </section>
+      <section id="form" class="contents03">
+          <div class="form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8IvT_Pi52P8o9wl1yrqis-4ezfAjk9wNwIx6va3uiVuxA9w/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" class="form__item">読み込んでいます...
+            </iframe>
+          </div>
+      </section>
+      <footer>
+        <div class="row">
+            <div class="col-lg-12">
+              <h2 class="title">JIRETTAI.inc</h2>
+              <p class="text"> Jirettai.llcはクライアントの課題を抽出して<wbr>チームの一員としてサービスを作っています。</p>
+                <p class="snsFb">
+                  <a href="https://www.facebook.com/jirettai/" target="_blank"><img src="assets/img/top/icon_sns_facebook.png" alt="facebook"></a>
+                </p>
+              <p class="copy">&copy; Copyright 2017 JIRETTAI All Right Reserved.</p>
+            </div>
+          </div>
+          <!-- /.row -->
+      </footer>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

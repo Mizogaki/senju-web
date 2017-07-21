@@ -1,0 +1,27 @@
+@mixin font-size($s:1.2) {
+    font-size: ($s * 10) + px;
+    font-size: $s + rem;
+}
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin iconfont($f) {
+    content: $f;
+    font-family: "icon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
