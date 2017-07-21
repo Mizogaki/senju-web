@@ -1,0 +1,19 @@
+補足事項   
+
+①OGP設定のURL追加について
+
+URLが決定しましたらindex.htmlの14、15、16行目のcontent=""の""内にURLを追加をお願いします。
+14行目のassets/img/common/ogp.pngは残してその前に追加してください。
+
+14：<meta property="og:url" content="assets/img/common/ogp.png">
+15: <meta name="twitter:image" content="">
+16: <meta property="og:image" content="">
+
+
+-------
+
+
+②Googolformの設定について
+
+googleformのテーマ設定で一緒にお送りした[form_bg.png]という画像を設定をお願いします。
+設定しないと現在の表示と見た目が変わってしまいます。
